@@ -1581,6 +1581,50 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@codemirror/commands@npm:6.x":
+  version: 6.3.0
+  resolution: "@codemirror/commands@npm:6.3.0"
+  dependencies:
+    "@codemirror/language": ^6.0.0
+    "@codemirror/state": ^6.2.0
+    "@codemirror/view": ^6.0.0
+    "@lezer/common": ^1.1.0
+  checksum: d6ade0ba7d4f80c2e44163935783d2f2f35c8b641a4b4f62452c0630211670abe5093786cf5a4af14147102d4284dae660a26f3ae58fd840e838685a81107d11
+  languageName: node
+  linkType: hard
+
+"@codemirror/language@npm:6.x, @codemirror/language@npm:^6.0.0":
+  version: 6.9.1
+  resolution: "@codemirror/language@npm:6.9.1"
+  dependencies:
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+    "@lezer/common": ^1.1.0
+    "@lezer/highlight": ^1.0.0
+    "@lezer/lr": ^1.0.0
+    style-mod: ^4.0.0
+  checksum: 62265f1042d2edfd3a091c408d9d0071f23889099b2f6ce8275fa910118bd2c45b8c4b29228c7be6e6d5f0e0812a522de902bc75ba8d8b2e62e42ade1692a49a
+  languageName: node
+  linkType: hard
+
+"@codemirror/state@npm:6.x, @codemirror/state@npm:^6.0.0, @codemirror/state@npm:^6.1.4, @codemirror/state@npm:^6.2.0":
+  version: 6.3.1
+  resolution: "@codemirror/state@npm:6.3.1"
+  checksum: 8e7e55b3824653936606b31f146737459cb6654c935d668e7f36113ad523e1951966640f647c1286ae4ef22e3f0c7e37a6dfcbbcdb7bbeacca43c17c80fcc918
+  languageName: node
+  linkType: hard
+
+"@codemirror/view@npm:6.x, @codemirror/view@npm:^6.0.0":
+  version: 6.21.3
+  resolution: "@codemirror/view@npm:6.21.3"
+  dependencies:
+    "@codemirror/state": ^6.1.4
+    style-mod: ^4.1.0
+    w3c-keyname: ^2.2.4
+  checksum: 7fda5a60e04fe1ac3d22ee478d4a90fc307953b8c900752ef5ca33af06c4e7851356e460f14b05034230b3a1677f36379ea01d85a3ea3b3a3e85e871ed62346a
+  languageName: node
+  linkType: hard
+
 "@discoveryjs/json-ext@npm:0.5.7, @discoveryjs/json-ext@npm:^0.5.0":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
@@ -1780,6 +1824,31 @@ __metadata:
     vue: ^2.6.11
     vue-template-compiler: ^2.6.11
   checksum: b54bf64515ab46df8b47308da1e4069da6a6afbe8e477ebdd717898ee094f169c3aae28518e51361d7fd39545a7f5f2de7d6f72881d33bb0be84c71e76b27dbc
+  languageName: node
+  linkType: hard
+
+"@lezer/common@npm:^1.0.0, @lezer/common@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@lezer/common@npm:1.1.0"
+  checksum: 93c208a44d1c0bdf7407853ba7c4ddcedf1c52d1b82170813d83b9bd6301aa23587405ac54332fe39ce8bc37f706936ab237ceb4d3d535d1dead650153b6474c
+  languageName: node
+  linkType: hard
+
+"@lezer/highlight@npm:^1.0.0":
+  version: 1.1.6
+  resolution: "@lezer/highlight@npm:1.1.6"
+  dependencies:
+    "@lezer/common": ^1.0.0
+  checksum: 411a702394c4c996b7d7f145a38f3a85a8cc698b3918acc7121c629255bb76d4ab383753f69009e011dc415210c6acbbb5b27bde613259ab67e600b29397b03b
+  languageName: node
+  linkType: hard
+
+"@lezer/lr@npm:^1.0.0":
+  version: 1.3.13
+  resolution: "@lezer/lr@npm:1.3.13"
+  dependencies:
+    "@lezer/common": ^1.0.0
+  checksum: aad0cb8908796a6b49116842fd490093aa0de54b48150a60a4f418815c014f7a1b4355615832e305caea5c0ba8c5ab577f82aebcd0ea04586b8199284ef0fec8
   languageName: node
   linkType: hard
 
@@ -4626,7 +4695,7 @@ __metadata:
     vue-awesome-swiper: ^4.1.1
     vue-breakpoint-mixin: ^1.5.0
     vue-cli-plugin-buefy: ~0.3.8
-    vue-codemirror: ^4.0.6
+    vue-codemirror: ^6.1.1
     vue-custom-scrollbar: ^1.4.4
     vue-ellipse-progress: ^1.3.1
     vue-fullscreen: ^2.6.2
@@ -5004,7 +5073,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"codemirror@npm:^5.41.0, codemirror@npm:^5.61.0":
+"codemirror@npm:^5.61.0":
   version: 5.65.13
   resolution: "codemirror@npm:5.65.13"
   checksum: 47060461edaebecd03b3fba4e73a30cdccc0c51ce3a3a05bafae3c9cafd682101383e94d77d54081eaf1ae18da5b74343e98343c637c52cea409956469039098
@@ -6784,13 +6853,6 @@ __metadata:
   version: 2.1.0
   resolution: "detect-node@npm:2.1.0"
   checksum: 832184ec458353e41533ac9c622f16c19f7c02d8b10c303dfd3a756f56be93e903616c0bb2d4226183c9351c15fc0b3dba41a17a2308262afabcfa3776e6ae6e
-  languageName: node
-  linkType: hard
-
-"diff-match-patch@npm:^1.0.0":
-  version: 1.0.5
-  resolution: "diff-match-patch@npm:1.0.5"
-  checksum: 841522d01b09cccbc4e4402cf61514a81b906349a7d97b67222390f2d35cf5df277cb23959eeed212d5e46afb5629cebab41b87918672c5a05c11c73688630e3
   languageName: node
   linkType: hard
 
@@ -15086,6 +15148,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"style-mod@npm:^4.0.0, style-mod@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "style-mod@npm:4.1.0"
+  checksum: 8402b14ca11113a3640d46b3cf7ba49f05452df7846bc5185a3535d9b6a64a3019e7fb636b59ccbb7816aeb0725b24723e77a85b05612a9360e419958e13b4e6
+  languageName: node
+  linkType: hard
+
 "style-resources-loader@npm:^1.5.0":
   version: 1.5.0
   resolution: "style-resources-loader@npm:1.5.0"
@@ -16323,13 +16392,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-codemirror@npm:^4.0.6":
-  version: 4.0.6
-  resolution: "vue-codemirror@npm:4.0.6"
+"vue-codemirror@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "vue-codemirror@npm:6.1.1"
   dependencies:
-    codemirror: ^5.41.0
-    diff-match-patch: ^1.0.0
-  checksum: f0a64f3f30396ac107c67616563a51658ede4474a7047722c1c4cf27fe21bb3551d8304c007f71634717a0d97913dcb923d189b026f9f73b866cca1c841cad9f
+    "@codemirror/commands": 6.x
+    "@codemirror/language": 6.x
+    "@codemirror/state": 6.x
+    "@codemirror/view": 6.x
+  peerDependencies:
+    codemirror: 6.x
+    vue: 3.x
+  checksum: 90eb7a786040a352e9e5b21c9db582dab60dff1289e26470cc8c51613c4457ca1b85d72b8042d2c059b642b9526e77532751847a6911453eb403762d3eaf0799
   languageName: node
   linkType: hard
 
@@ -16602,7 +16676,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"w3c-keyname@npm:^2.2.0":
+"w3c-keyname@npm:^2.2.0, w3c-keyname@npm:^2.2.4":
   version: 2.2.8
   resolution: "w3c-keyname@npm:2.2.8"
   checksum: 95bafa4c04fa2f685a86ca1000069c1ec43ace1f8776c10f226a73296caeddd83f893db885c2c220ebeb6c52d424e3b54d7c0c1e963bbf204038ff1a944fbb07
