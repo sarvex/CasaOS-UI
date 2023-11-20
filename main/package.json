@@ -116,7 +116,7 @@
     "vue-cli-plugin-buefy": "~0.3.8",
     "vue-template-compiler": "^2.7.14",
     "webpack": "4.46.0",
-    "webpack-bundle-analyzer": "^4.9.0",
+    "webpack-bundle-analyzer": "^4.10.1",
     "webpack-cli": "^4.10.0",
     "yaml": "^1.10.2"
   },
