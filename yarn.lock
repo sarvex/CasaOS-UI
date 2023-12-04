@@ -2933,6 +2933,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vue/devtools-api@npm:^6.5.1":
+  version: 6.5.1
+  resolution: "@vue/devtools-api@npm:6.5.1"
+  checksum: 3de9ff5ec78890c84d22c59910e26bf53140413895ba85b0e2a276609c24d9dde007cf468d9f21ef18389eaef75605fe94e79a761beb30d3bbb7af1ef19bbd4e
+  languageName: node
+  linkType: hard
+
 "@vue/preload-webpack-plugin@npm:^1.1.0":
   version: 1.1.2
   resolution: "@vue/preload-webpack-plugin@npm:1.1.2"
@@ -4620,7 +4627,7 @@ __metadata:
     v-animate-css: ^0.0.6
     v-viewer: ^1.7.1
     validator: ^13.9.0
-    vee-validate: ^3.4.15
+    vee-validate: ^4.12.2
     vue: ^2.7.14
     vue-apexcharts: ^1.6.2
     vue-awesome-swiper: ^4.1.1
@@ -15783,6 +15790,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"type-fest@npm:^4.8.2":
+  version: 4.8.3
+  resolution: "type-fest@npm:4.8.3"
+  checksum: cd8c9a20a32b9d813f5f6d84bd81e52e22fb779a7ef0ae53974bae5baac427974bc8243269e9832b22ce2b6277d857b44769b3664f97dcac344e600bdd95f186
+  languageName: node
+  linkType: hard
+
 "type-is@npm:~1.6.18":
   version: 1.6.18
   resolution: "type-is@npm:1.6.18"
@@ -16240,12 +16254,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vee-validate@npm:^3.4.15":
-  version: 3.4.15
-  resolution: "vee-validate@npm:3.4.15"
+"vee-validate@npm:^4.12.2":
+  version: 4.12.2
+  resolution: "vee-validate@npm:4.12.2"
+  dependencies:
+    "@vue/devtools-api": ^6.5.1
+    type-fest: ^4.8.2
   peerDependencies:
-    vue: ^2.5.18
-  checksum: 50f0b6cb531dd3c49873516785ba3c4a0d663413f707b4106d14de06ada26eefc2009c996aa411e4a3b16ec4eb3f50dafadf1e67438142de44a6551b4ce723c9
+    vue: ^3.3.8
+  checksum: a2adf4a0f089942c0f017489f121c1c62a0e43538e910f709aa565ffc055a2e0d160200c05d5ea9fc98bf63311e9c0db1ab3ab04268d68762a8c606ffe337f5d
   languageName: node
   linkType: hard
 
