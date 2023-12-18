@@ -60,7 +60,7 @@
     "v-animate-css": "^0.0.6",
     "v-viewer": "^1.7.1",
     "validator": "^13.9.0",
-    "vee-validate": "^3.4.15",
+    "vee-validate": "^4.12.3",
     "vue": "^2.7.14",
     "vue-apexcharts": "^1.6.2",
     "vue-awesome-swiper": "^4.1.1",
